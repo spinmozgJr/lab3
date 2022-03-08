@@ -76,7 +76,8 @@ namespace lab3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
+            //richTextBox1.Text = "";
+            textBox1.Text = "";
 
             double X0 = -10;
             double h = 0.1;
@@ -105,8 +106,8 @@ namespace lab3
                 HasError = Error != 0;
                 if (Error == 0)
                 {
-                    richTextBox1.Text += $"F({Xi}) = {F1 + F2 + F3 + F4}\n";
-                    //textBox1.AppendText($"\nF({Xi}) = {F1 + F2 + F3 + F4}\n");
+                    //richTextBox1.Text += $"F({Xi}) = {F1 + F2 + F3 + F4}\n";
+                    textBox1.AppendText($"\nF({Xi}) = {F1 + F2 + F3 + F4}\r\n");
                 }
                     
                 if (HasError)
