@@ -45,9 +45,9 @@ namespace lab3
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(34, 25);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(303, 437);
+            this.richTextBox1.Size = new System.Drawing.Size(355, 425);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
